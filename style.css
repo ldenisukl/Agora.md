@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header {
+    background-color: #999999;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-text {
+    text-align: right;
+}
+.header-text p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.logo img {
+    width: 30px;
+    height: auto;
+}
+.logo a:hover {
+    opacity: 0.8;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.banner {
+    background-color: red;
+    background-size: cover;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+}
+.books {
+    text-align: center;
+    padding: 50px 20px;
+}
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+}
+.book {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+.book p {
+    font-size: 14px;
+    color: #666;
+}
+footer {
+    margin-top: auto;
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    
+}
+.footer {
+    margin-top: auto;
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.ban {
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    color: black;
+    padding: 10px 20px;
+}
+.logo-text {
+    color: red;
+    font-weight: bold;
+}
+.library-info {
+    display: flex;
+    justify-content: space-between;
+}
+.librarie-info {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+.librarie-info h2 {
+    color: red;
+}
+.librarie-info ul {
+    list-style: none;
+    padding: 0;
+}
+.librarie-info ul li {
+    margin-bottom: 5px;
+}
+.despre-noi {
+    padding: 20px;
+}
+.despre-noi h2 {
+    color: red;
+}
+.citat {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.contact-info {
+    text-align: center;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+table {
+    border-collapse: collapse;
+    margin-right: 20px;
+}
+td {
+    padding: 5px 10px;
+    text-align: left;
+}
+.office-info p,
+.office-info2 p {
+    margin: 5px 0;
+}
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.book {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+.book button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.book img {
+    max-height: 200px;
+    width: auto;
+}
+.top-books-title {
+    text-align: center;
+}
+.reduceri {
+    text-align: center;
+    margin-top: 50px;
+}
+.divider {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ff0000;
+}
+.reduceri h2 {
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+.pret-initial {
+    color: black;
+    font-weight: bold;
+}
+.book p {
+    font-weight: bold;
+}
+.book {
+    text-align: center;
+}
+.pret-initial::before {
+    text-decoration: line-through;
+    content: attr(data-original);
+    color: #999;
+    margin-right: 5px; 
+}
+.pret-initial::after {
+    content: "(-30%)";
+    color: #ff0000;
+    margin-left: 5px;
+}
+.recomandate {
+    text-align: center; /* Aliniere text la centru */
+}
+
+.book-type {
+    margin-bottom: 20px; /* Spațiu între tipurile de cărți */
+}
+
+.book-type img {
+    width: 200px; /* Lățimea imaginilor */
+    height: auto; /* Menține raportul de aspect */
+}
